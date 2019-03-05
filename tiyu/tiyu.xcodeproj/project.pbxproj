@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007FCEB67B70149CB3C10E2A /* libPods-tiyu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F669EBDDF82C3F911D7E2FF6 /* libPods-tiyu.a */; };
+		F3646EE1222E87ED00A1B673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646EE0222E87ED00A1B673 /* AppDelegate.m */; };
+		F3646EE7222E87ED00A1B673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3646EE5222E87ED00A1B673 /* Main.storyboard */; };
+		F3646EE9222E87EE00A1B673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3646EE8222E87EE00A1B673 /* Assets.xcassets */; };
+		F3646EEC222E87EE00A1B673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3646EEA222E87EE00A1B673 /* LaunchScreen.storyboard */; };
+		F3646EEF222E87EE00A1B673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646EEE222E87EE00A1B673 /* main.m */; };
+		F3646EF9222E87EE00A1B673 /* tiyuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646EF8222E87EE00A1B673 /* tiyuTests.m */; };
+		F3646F04222E87EE00A1B673 /* tiyuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F03222E87EE00A1B673 /* tiyuUITests.m */; };
+		F3646F14222E896600A1B673 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F12222E896600A1B673 /* HomeViewController.m */; };
+		F3646F15222E896600A1B673 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F13222E896600A1B673 /* HomeViewController.xib */; };
+		F3646F19222E8A5700A1B673 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F18222E8A5700A1B673 /* MainViewController.m */; };
+		F3646F21222E8AD900A1B673 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F1F222E8AD900A1B673 /* VideoViewController.m */; };
+		F3646F22222E8AD900A1B673 /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F20222E8AD900A1B673 /* VideoViewController.xib */; };
+		F3646F27222E8B3000A1B673 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F25222E8B3000A1B673 /* WeatherViewController.m */; };
+		F3646F28222E8B3000A1B673 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F26222E8B3000A1B673 /* WeatherViewController.xib */; };
+		F3646F2D222E8C1C00A1B673 /* MovementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F2B222E8C1C00A1B673 /* MovementViewController.m */; };
+		F3646F2E222E8C1C00A1B673 /* MovementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F2C222E8C1C00A1B673 /* MovementViewController.xib */; };
+		F3646F33222E8C4500A1B673 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F31222E8C4500A1B673 /* PersonViewController.m */; };
+		F3646F34222E8C4500A1B673 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F32222E8C4500A1B673 /* PersonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3646EF5222E87EE00A1B673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3646ED4222E87ED00A1B673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3646EDB222E87ED00A1B673;
+			remoteInfo = tiyu;
+		};
+		F3646F00222E87EE00A1B673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3646ED4222E87ED00A1B673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3646EDB222E87ED00A1B673;
+			remoteInfo = tiyu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85FEDD7028ED9609E77BC1F8 /* Pods-tiyu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiyu.release.xcconfig"; path = "Target Support Files/Pods-tiyu/Pods-tiyu.release.xcconfig"; sourceTree = "<group>"; };
+		86213796469FF99FA77A42FB /* Pods-tiyu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiyu.debug.xcconfig"; path = "Target Support Files/Pods-tiyu/Pods-tiyu.debug.xcconfig"; sourceTree = "<group>"; };
+		F3646EDC222E87ED00A1B673 /* tiyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3646EDF222E87ED00A1B673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3646EE0222E87ED00A1B673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3646EE6222E87ED00A1B673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3646EE8222E87EE00A1B673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3646EEB222E87EE00A1B673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3646EED222E87EE00A1B673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3646EEE222E87EE00A1B673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3646EF4222E87EE00A1B673 /* tiyuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiyuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3646EF8222E87EE00A1B673 /* tiyuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tiyuTests.m; sourceTree = "<group>"; };
+		F3646EFA222E87EE00A1B673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3646EFF222E87EE00A1B673 /* tiyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiyuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3646F03222E87EE00A1B673 /* tiyuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tiyuUITests.m; sourceTree = "<group>"; };
+		F3646F05222E87EE00A1B673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3646F11222E896600A1B673 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F3646F12222E896600A1B673 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F3646F13222E896600A1B673 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F3646F17222E8A5700A1B673 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F3646F18222E8A5700A1B673 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F3646F1E222E8AD900A1B673 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		F3646F1F222E8AD900A1B673 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		F3646F20222E8AD900A1B673 /* VideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
+		F3646F24222E8B3000A1B673 /* WeatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		F3646F25222E8B3000A1B673 /* WeatherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		F3646F26222E8B3000A1B673 /* WeatherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		F3646F2A222E8C1C00A1B673 /* MovementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovementViewController.h; sourceTree = "<group>"; };
+		F3646F2B222E8C1C00A1B673 /* MovementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovementViewController.m; sourceTree = "<group>"; };
+		F3646F2C222E8C1C00A1B673 /* MovementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovementViewController.xib; sourceTree = "<group>"; };
+		F3646F30222E8C4500A1B673 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		F3646F31222E8C4500A1B673 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		F3646F32222E8C4500A1B673 /* PersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		F669EBDDF82C3F911D7E2FF6 /* libPods-tiyu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tiyu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3646ED9222E87ED00A1B673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007FCEB67B70149CB3C10E2A /* libPods-tiyu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3646EF1222E87EE00A1B673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3646EFC222E87EE00A1B673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A945C4263282ABE9192E44F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F669EBDDF82C3F911D7E2FF6 /* libPods-tiyu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D7CB882991A234846042F4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86213796469FF99FA77A42FB /* Pods-tiyu.debug.xcconfig */,
+				85FEDD7028ED9609E77BC1F8 /* Pods-tiyu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3646ED3222E87ED00A1B673 = {
+			isa = PBXGroup;
+			children = (
+				F3646EDE222E87ED00A1B673 /* tiyu */,
+				F3646EF7222E87EE00A1B673 /* tiyuTests */,
+				F3646F02222E87EE00A1B673 /* tiyuUITests */,
+				F3646EDD222E87ED00A1B673 /* Products */,
+				9D7CB882991A234846042F4B /* Pods */,
+				3A945C4263282ABE9192E44F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3646EDD222E87ED00A1B673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3646EDC222E87ED00A1B673 /* tiyu.app */,
+				F3646EF4222E87EE00A1B673 /* tiyuTests.xctest */,
+				F3646EFF222E87EE00A1B673 /* tiyuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3646EDE222E87ED00A1B673 /* tiyu */ = {
+			isa = PBXGroup;
+			children = (
+				F3646EDF222E87ED00A1B673 /* AppDelegate.h */,
+				F3646EE0222E87ED00A1B673 /* AppDelegate.m */,
+				F3646F16222E8A1A00A1B673 /* Tabbar */,
+				F3646F1C222E8A7D00A1B673 /* Home */,
+				F3646F1D222E8AB300A1B673 /* Video */,
+				F3646F23222E8AE700A1B673 /* Weather */,
+				F3646F29222E8B8200A1B673 /* Movement */,
+				F3646F2F222E8C2300A1B673 /* Person */,
+				F3646EE5222E87ED00A1B673 /* Main.storyboard */,
+				F3646EE8222E87EE00A1B673 /* Assets.xcassets */,
+				F3646EEA222E87EE00A1B673 /* LaunchScreen.storyboard */,
+				F3646EED222E87EE00A1B673 /* Info.plist */,
+				F3646EEE222E87EE00A1B673 /* main.m */,
+			);
+			path = tiyu;
+			sourceTree = "<group>";
+		};
+		F3646EF7222E87EE00A1B673 /* tiyuTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3646EF8222E87EE00A1B673 /* tiyuTests.m */,
+				F3646EFA222E87EE00A1B673 /* Info.plist */,
+			);
+			path = tiyuTests;
+			sourceTree = "<group>";
+		};
+		F3646F02222E87EE00A1B673 /* tiyuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3646F03222E87EE00A1B673 /* tiyuUITests.m */,
+				F3646F05222E87EE00A1B673 /* Info.plist */,
+			);
+			path = tiyuUITests;
+			sourceTree = "<group>";
+		};
+		F3646F16222E8A1A00A1B673 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F3646F17222E8A5700A1B673 /* MainViewController.h */,
+				F3646F18222E8A5700A1B673 /* MainViewController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		F3646F1C222E8A7D00A1B673 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F3646F12222E896600A1B673 /* HomeViewController.m */,
+				F3646F11222E896600A1B673 /* HomeViewController.h */,
+				F3646F13222E896600A1B673 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F3646F1D222E8AB300A1B673 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				F3646F1E222E8AD900A1B673 /* VideoViewController.h */,
+				F3646F1F222E8AD900A1B673 /* VideoViewController.m */,
+				F3646F20222E8AD900A1B673 /* VideoViewController.xib */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		F3646F23222E8AE700A1B673 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F3646F24222E8B3000A1B673 /* WeatherViewController.h */,
+				F3646F25222E8B3000A1B673 /* WeatherViewController.m */,
+				F3646F26222E8B3000A1B673 /* WeatherViewController.xib */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		F3646F29222E8B8200A1B673 /* Movement */ = {
+			isa = PBXGroup;
+			children = (
+				F3646F2A222E8C1C00A1B673 /* MovementViewController.h */,
+				F3646F2B222E8C1C00A1B673 /* MovementViewController.m */,
+				F3646F2C222E8C1C00A1B673 /* MovementViewController.xib */,
+			);
+			path = Movement;
+			sourceTree = "<group>";
+		};
+		F3646F2F222E8C2300A1B673 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				F3646F30222E8C4500A1B673 /* PersonViewController.h */,
+				F3646F31222E8C4500A1B673 /* PersonViewController.m */,
+				F3646F32222E8C4500A1B673 /* PersonViewController.xib */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3646EDB222E87ED00A1B673 /* tiyu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3646F08222E87EE00A1B673 /* Build configuration list for PBXNativeTarget "tiyu" */;
+			buildPhases = (
+				6A7C2D990D1A35E9F44E18CB /* [CP] Check Pods Manifest.lock */,
+				F3646ED8222E87ED00A1B673 /* Sources */,
+				F3646ED9222E87ED00A1B673 /* Frameworks */,
+				F3646EDA222E87ED00A1B673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiyu;
+			productName = tiyu;
+			productReference = F3646EDC222E87ED00A1B673 /* tiyu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3646EF3222E87EE00A1B673 /* tiyuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3646F0B222E87EE00A1B673 /* Build configuration list for PBXNativeTarget "tiyuTests" */;
+			buildPhases = (
+				F3646EF0222E87EE00A1B673 /* Sources */,
+				F3646EF1222E87EE00A1B673 /* Frameworks */,
+				F3646EF2222E87EE00A1B673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3646EF6222E87EE00A1B673 /* PBXTargetDependency */,
+			);
+			name = tiyuTests;
+			productName = tiyuTests;
+			productReference = F3646EF4222E87EE00A1B673 /* tiyuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3646EFE222E87EE00A1B673 /* tiyuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3646F0E222E87EE00A1B673 /* Build configuration list for PBXNativeTarget "tiyuUITests" */;
+			buildPhases = (
+				F3646EFB222E87EE00A1B673 /* Sources */,
+				F3646EFC222E87EE00A1B673 /* Frameworks */,
+				F3646EFD222E87EE00A1B673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3646F01222E87EE00A1B673 /* PBXTargetDependency */,
+			);
+			name = tiyuUITests;
+			productName = tiyuUITests;
+			productReference = F3646EFF222E87EE00A1B673 /* tiyuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3646ED4222E87ED00A1B673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "李爽";
+				TargetAttributes = {
+					F3646EDB222E87ED00A1B673 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F3646EF3222E87EE00A1B673 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F3646EDB222E87ED00A1B673;
+					};
+					F3646EFE222E87EE00A1B673 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F3646EDB222E87ED00A1B673;
+					};
+				};
+			};
+			buildConfigurationList = F3646ED7222E87ED00A1B673 /* Build configuration list for PBXProject "tiyu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3646ED3222E87ED00A1B673;
+			productRefGroup = F3646EDD222E87ED00A1B673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3646EDB222E87ED00A1B673 /* tiyu */,
+				F3646EF3222E87EE00A1B673 /* tiyuTests */,
+				F3646EFE222E87EE00A1B673 /* tiyuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3646EDA222E87ED00A1B673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3646EEC222E87EE00A1B673 /* LaunchScreen.storyboard in Resources */,
+				F3646F2E222E8C1C00A1B673 /* MovementViewController.xib in Resources */,
+				F3646F28222E8B3000A1B673 /* WeatherViewController.xib in Resources */,
+				F3646EE9222E87EE00A1B673 /* Assets.xcassets in Resources */,
+				F3646EE7222E87ED00A1B673 /* Main.storyboard in Resources */,
+				F3646F22222E8AD900A1B673 /* VideoViewController.xib in Resources */,
+				F3646F15222E896600A1B673 /* HomeViewController.xib in Resources */,
+				F3646F34222E8C4500A1B673 /* PersonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3646EF2222E87EE00A1B673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3646EFD222E87EE00A1B673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A7C2D990D1A35E9F44E18CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tiyu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3646ED8222E87ED00A1B673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3646F21222E8AD900A1B673 /* VideoViewController.m in Sources */,
+				F3646F2D222E8C1C00A1B673 /* MovementViewController.m in Sources */,
+				F3646F27222E8B3000A1B673 /* WeatherViewController.m in Sources */,
+				F3646EEF222E87EE00A1B673 /* main.m in Sources */,
+				F3646EE1222E87ED00A1B673 /* AppDelegate.m in Sources */,
+				F3646F14222E896600A1B673 /* HomeViewController.m in Sources */,
+				F3646F19222E8A5700A1B673 /* MainViewController.m in Sources */,
+				F3646F33222E8C4500A1B673 /* PersonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3646EF0222E87EE00A1B673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3646EF9222E87EE00A1B673 /* tiyuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3646EFB222E87EE00A1B673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3646F04222E87EE00A1B673 /* tiyuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3646EF6222E87EE00A1B673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3646EDB222E87ED00A1B673 /* tiyu */;
+			targetProxy = F3646EF5222E87EE00A1B673 /* PBXContainerItemProxy */;
+		};
+		F3646F01222E87EE00A1B673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3646EDB222E87ED00A1B673 /* tiyu */;
+			targetProxy = F3646F00222E87EE00A1B673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3646EE5222E87ED00A1B673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3646EE6222E87ED00A1B673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3646EEA222E87EE00A1B673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3646EEB222E87EE00A1B673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3646F06222E87EE00A1B673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3646F07222E87EE00A1B673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3646F09222E87EE00A1B673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86213796469FF99FA77A42FB /* Pods-tiyu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSCFG3R4P8;
+				INFOPLIST_FILE = tiyu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.tiyu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3646F0A222E87EE00A1B673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85FEDD7028ED9609E77BC1F8 /* Pods-tiyu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSCFG3R4P8;
+				INFOPLIST_FILE = tiyu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.tiyu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3646F0C222E87EE00A1B673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSCFG3R4P8;
+				INFOPLIST_FILE = tiyuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.tiyuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiyu.app/tiyu";
+			};
+			name = Debug;
+		};
+		F3646F0D222E87EE00A1B673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSCFG3R4P8;
+				INFOPLIST_FILE = tiyuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.tiyuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiyu.app/tiyu";
+			};
+			name = Release;
+		};
+		F3646F0F222E87EE00A1B673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSCFG3R4P8;
+				INFOPLIST_FILE = tiyuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.tiyuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tiyu;
+			};
+			name = Debug;
+		};
+		F3646F10222E87EE00A1B673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSCFG3R4P8;
+				INFOPLIST_FILE = tiyuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.tiyuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tiyu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3646ED7222E87ED00A1B673 /* Build configuration list for PBXProject "tiyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3646F06222E87EE00A1B673 /* Debug */,
+				F3646F07222E87EE00A1B673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3646F08222E87EE00A1B673 /* Build configuration list for PBXNativeTarget "tiyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3646F09222E87EE00A1B673 /* Debug */,
+				F3646F0A222E87EE00A1B673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3646F0B222E87EE00A1B673 /* Build configuration list for PBXNativeTarget "tiyuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3646F0C222E87EE00A1B673 /* Debug */,
+				F3646F0D222E87EE00A1B673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3646F0E222E87EE00A1B673 /* Build configuration list for PBXNativeTarget "tiyuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3646F0F222E87EE00A1B673 /* Debug */,
+				F3646F10222E87EE00A1B673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3646ED4222E87ED00A1B673 /* Project object */;
+}
