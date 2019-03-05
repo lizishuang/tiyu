@@ -28,6 +28,8 @@
 		F3646F34222E8C4500A1B673 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F32222E8C4500A1B673 /* PersonViewController.xib */; };
 		F3646F38222EB68200A1B673 /* PersonSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F36222EB68200A1B673 /* PersonSetViewController.m */; };
 		F3646F39222EB68200A1B673 /* PersonSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F37222EB68200A1B673 /* PersonSetViewController.xib */; };
+		F3646F42222ED92D00A1B673 /* PersonMyMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F40222ED92D00A1B673 /* PersonMyMsgViewController.m */; };
+		F3646F43222ED92D00A1B673 /* PersonMyMsgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F41222ED92D00A1B673 /* PersonMyMsgViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,9 @@
 		F3646F35222EB68200A1B673 /* PersonSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonSetViewController.h; sourceTree = "<group>"; };
 		F3646F36222EB68200A1B673 /* PersonSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonSetViewController.m; sourceTree = "<group>"; };
 		F3646F37222EB68200A1B673 /* PersonSetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonSetViewController.xib; sourceTree = "<group>"; };
+		F3646F3F222ED92D00A1B673 /* PersonMyMsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonMyMsgViewController.h; sourceTree = "<group>"; };
+		F3646F40222ED92D00A1B673 /* PersonMyMsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonMyMsgViewController.m; sourceTree = "<group>"; };
+		F3646F41222ED92D00A1B673 /* PersonMyMsgViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMyMsgViewController.xib; sourceTree = "<group>"; };
 		F669EBDDF82C3F911D7E2FF6 /* libPods-tiyu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tiyu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -248,6 +253,9 @@
 				F3646F35222EB68200A1B673 /* PersonSetViewController.h */,
 				F3646F36222EB68200A1B673 /* PersonSetViewController.m */,
 				F3646F37222EB68200A1B673 /* PersonSetViewController.xib */,
+				F3646F3F222ED92D00A1B673 /* PersonMyMsgViewController.h */,
+				F3646F40222ED92D00A1B673 /* PersonMyMsgViewController.m */,
+				F3646F41222ED92D00A1B673 /* PersonMyMsgViewController.xib */,
 			);
 			path = Person;
 			sourceTree = "<group>";
@@ -363,6 +371,7 @@
 				F3646EE9222E87EE00A1B673 /* Assets.xcassets in Resources */,
 				F3646EE7222E87ED00A1B673 /* Main.storyboard in Resources */,
 				F3646F22222E8AD900A1B673 /* VideoViewController.xib in Resources */,
+				F3646F43222ED92D00A1B673 /* PersonMyMsgViewController.xib in Resources */,
 				F3646F15222E896600A1B673 /* HomeViewController.xib in Resources */,
 				F3646F34222E8C4500A1B673 /* PersonViewController.xib in Resources */,
 			);
@@ -423,6 +432,7 @@
 				F3646F14222E896600A1B673 /* HomeViewController.m in Sources */,
 				F3646F19222E8A5700A1B673 /* MainViewController.m in Sources */,
 				F3646F33222E8C4500A1B673 /* PersonViewController.m in Sources */,
+				F3646F42222ED92D00A1B673 /* PersonMyMsgViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

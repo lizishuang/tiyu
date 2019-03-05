@@ -12,8 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonViewController">
             <connections>
-                <outlet property="personMsgImageView" destination="ckV-Ca-9li" id="x9E-kQ-sIR"/>
-                <outlet property="setImagview" destination="TXq-O4-pCQ" id="yHs-Gn-tzI"/>
+                <outlet property="personMsgImageView" destination="ckV-Ca-9li" id="rqW-Hi-rOF"/>
+                <outlet property="setImagview" destination="evo-1C-nli" id="Fa9-q6-Ebd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -44,7 +44,7 @@
                             </attributedString>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ckV-Ca-9li">
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ckV-Ca-9li">
                             <rect key="frame" x="349" y="92" width="13" height="22"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="22" id="Axz-Ye-UhZ"/>
@@ -65,7 +65,7 @@
                             </attributedString>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="evo-1C-nli">
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="evo-1C-nli">
                             <rect key="frame" x="343" y="33" width="20" height="18"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="20" id="WMZ-Oy-7G7"/>
