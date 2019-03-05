@@ -26,6 +26,8 @@
 		F3646F2E222E8C1C00A1B673 /* MovementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F2C222E8C1C00A1B673 /* MovementViewController.xib */; };
 		F3646F33222E8C4500A1B673 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F31222E8C4500A1B673 /* PersonViewController.m */; };
 		F3646F34222E8C4500A1B673 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F32222E8C4500A1B673 /* PersonViewController.xib */; };
+		F3646F38222EB68200A1B673 /* PersonSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F36222EB68200A1B673 /* PersonSetViewController.m */; };
+		F3646F39222EB68200A1B673 /* PersonSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F37222EB68200A1B673 /* PersonSetViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,9 @@
 		F3646F30222E8C4500A1B673 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
 		F3646F31222E8C4500A1B673 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 		F3646F32222E8C4500A1B673 /* PersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		F3646F35222EB68200A1B673 /* PersonSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonSetViewController.h; sourceTree = "<group>"; };
+		F3646F36222EB68200A1B673 /* PersonSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonSetViewController.m; sourceTree = "<group>"; };
+		F3646F37222EB68200A1B673 /* PersonSetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonSetViewController.xib; sourceTree = "<group>"; };
 		F669EBDDF82C3F911D7E2FF6 /* libPods-tiyu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tiyu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -240,6 +245,9 @@
 				F3646F30222E8C4500A1B673 /* PersonViewController.h */,
 				F3646F31222E8C4500A1B673 /* PersonViewController.m */,
 				F3646F32222E8C4500A1B673 /* PersonViewController.xib */,
+				F3646F35222EB68200A1B673 /* PersonSetViewController.h */,
+				F3646F36222EB68200A1B673 /* PersonSetViewController.m */,
+				F3646F37222EB68200A1B673 /* PersonSetViewController.xib */,
 			);
 			path = Person;
 			sourceTree = "<group>";
@@ -348,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3646F39222EB68200A1B673 /* PersonSetViewController.xib in Resources */,
 				F3646EEC222E87EE00A1B673 /* LaunchScreen.storyboard in Resources */,
 				F3646F2E222E8C1C00A1B673 /* MovementViewController.xib in Resources */,
 				F3646F28222E8B3000A1B673 /* WeatherViewController.xib in Resources */,
@@ -406,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3646F21222E8AD900A1B673 /* VideoViewController.m in Sources */,
+				F3646F38222EB68200A1B673 /* PersonSetViewController.m in Sources */,
 				F3646F2D222E8C1C00A1B673 /* MovementViewController.m in Sources */,
 				F3646F27222E8B3000A1B673 /* WeatherViewController.m in Sources */,
 				F3646EEF222E87EE00A1B673 /* main.m in Sources */,

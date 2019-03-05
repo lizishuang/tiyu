@@ -55,11 +55,11 @@
     UIViewController * threeNavigationController = [[UINavigationController alloc]
                                                     initWithRootViewController:threeViewController];
     
-    VideoViewController *fourViewController = [[VideoViewController alloc] init];
+    MovementViewController *fourViewController = [[MovementViewController alloc] init];
     UIViewController *fourNavigationController = [[UINavigationController alloc]
                                                     initWithRootViewController:fourViewController];
     
-    VideoViewController *fiveViewController = [[VideoViewController alloc] init];
+    PersonViewController *fiveViewController = [[PersonViewController alloc] init];
     UIViewController *fiveNavigationController = [[UINavigationController alloc]
                                                   initWithRootViewController:fiveViewController];
     
