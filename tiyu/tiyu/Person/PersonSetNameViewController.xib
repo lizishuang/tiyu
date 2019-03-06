@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonSetNameViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LKu-tb-bhJ">
+                    <rect key="frame" x="0.0" y="25" width="375" height="44"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qrz-cA-imA">
+                            <rect key="frame" x="10" y="13" width="355" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="zYL-6A-rAw"/>
+                            </constraints>
+                            <attributedString key="attributedText">
+                                <fragment content="123">
+                                    <attributes>
+                                        <font key="NSFont" metaFont="smallSystem"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="qrz-cA-imA" firstAttribute="centerY" secondItem="LKu-tb-bhJ" secondAttribute="centerY" id="2gH-Y7-5s6"/>
+                        <constraint firstItem="qrz-cA-imA" firstAttribute="leading" secondItem="LKu-tb-bhJ" secondAttribute="leading" constant="10" id="7wZ-Hj-OVU"/>
+                        <constraint firstAttribute="height" constant="44" id="Bjv-ga-86h"/>
+                        <constraint firstAttribute="trailing" secondItem="qrz-cA-imA" secondAttribute="trailing" constant="10" id="rrO-4Z-vto"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="LKu-tb-bhJ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="5" id="6Gl-cJ-Ln1"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="LKu-tb-bhJ" secondAttribute="trailing" id="BWB-Ko-8Vs"/>
+                <constraint firstItem="LKu-tb-bhJ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="JSg-Kv-bHX"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

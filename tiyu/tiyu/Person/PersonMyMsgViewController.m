@@ -7,12 +7,22 @@
 //
 
 #import "PersonMyMsgViewController.h"
+#import "MyWindow.h"
+#import "PersonSetNameViewController.h"
 
 @interface PersonMyMsgViewController ()
+@property (nonatomic,strong) UIView *tmpContentView;
+@property (weak, nonatomic) IBOutlet UIView *headerImageViewTap;
+@property (weak, nonatomic) IBOutlet UIView *SetNameTap;
 
 @end
 
 @implementation PersonMyMsgViewController
+{
+    MyWindow *customWindow;
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -20,7 +30,47 @@
     
     [self setNavState];
     [self setBackbutton];
+    [self setTap];
+}
 
+//设置tap
+- (void)setTap
+{
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(headertap)];
+    [self.headerImageViewTap addGestureRecognizer:tap];
+    
+    NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"MyWindow" owner:self options:nil];
+    _tmpContentView = [nib objectAtIndex:0];
+    UIButton * button1 = (UIButton    *)[_tmpContentView viewWithTag:1001];
+    UIButton * button2 = (UIButton    *)[_tmpContentView viewWithTag:1002];
+    [button1 addTarget:self action:@selector(paizhao) forControlEvents:UIControlEventTouchUpInside];
+    [button2 addTarget:self action:@selector(xiangce) forControlEvents:UIControlEventTouchUpInside];
+    
+    UITapGestureRecognizer * tap2 = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(SetName)];
+    [self.SetNameTap addGestureRecognizer:tap2];
+    
+}
+
+- (void)headertap
+{
+    customWindow = [[MyWindow alloc]initWithView:_tmpContentView];
+    [customWindow show];
+}
+
+- (void)SetName
+{
+    PersonSetNameViewController * view  = [[PersonSetNameViewController alloc]init];
+    [self.navigationController pushViewController:view animated:NO];
+}
+
+- (void)paizhao
+{
+    
+}
+
+- (void)xiangce
+{
+    
 }
 
 //设置导航栏

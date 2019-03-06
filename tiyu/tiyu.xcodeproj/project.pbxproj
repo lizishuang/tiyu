@@ -30,6 +30,16 @@
 		F3646F39222EB68200A1B673 /* PersonSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F37222EB68200A1B673 /* PersonSetViewController.xib */; };
 		F3646F42222ED92D00A1B673 /* PersonMyMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F40222ED92D00A1B673 /* PersonMyMsgViewController.m */; };
 		F3646F43222ED92D00A1B673 /* PersonMyMsgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F41222ED92D00A1B673 /* PersonMyMsgViewController.xib */; };
+		F3646F47222F999D00A1B673 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F46222F999D00A1B673 /* MyWindow.m */; };
+		F3646F4B222F9A1500A1B673 /* MyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F4A222F9A1500A1B673 /* MyWindow.xib */; };
+		F3646F4F222FA20900A1B673 /* PersonSetNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F4D222FA20900A1B673 /* PersonSetNameViewController.m */; };
+		F3646F50222FA20900A1B673 /* PersonSetNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F4E222FA20900A1B673 /* PersonSetNameViewController.xib */; };
+		F3646F54222FB44400A1B673 /* PersonPushSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F52222FB44400A1B673 /* PersonPushSetViewController.m */; };
+		F3646F55222FB44400A1B673 /* PersonPushSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F53222FB44400A1B673 /* PersonPushSetViewController.xib */; };
+		F3646F59222FB84000A1B673 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F57222FB84000A1B673 /* QuestionViewController.m */; };
+		F3646F5A222FB84000A1B673 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F58222FB84000A1B673 /* QuestionViewController.xib */; };
+		F3646F5F222FBE4700A1B673 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3646F5D222FBE4700A1B673 /* loginViewController.m */; };
+		F3646F60222FBE4700A1B673 /* loginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3646F5E222FBE4700A1B673 /* loginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +99,21 @@
 		F3646F3F222ED92D00A1B673 /* PersonMyMsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonMyMsgViewController.h; sourceTree = "<group>"; };
 		F3646F40222ED92D00A1B673 /* PersonMyMsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonMyMsgViewController.m; sourceTree = "<group>"; };
 		F3646F41222ED92D00A1B673 /* PersonMyMsgViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMyMsgViewController.xib; sourceTree = "<group>"; };
+		F3646F45222F999D00A1B673 /* MyWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		F3646F46222F999D00A1B673 /* MyWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
+		F3646F4A222F9A1500A1B673 /* MyWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyWindow.xib; sourceTree = "<group>"; };
+		F3646F4C222FA20900A1B673 /* PersonSetNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonSetNameViewController.h; sourceTree = "<group>"; };
+		F3646F4D222FA20900A1B673 /* PersonSetNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonSetNameViewController.m; sourceTree = "<group>"; };
+		F3646F4E222FA20900A1B673 /* PersonSetNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonSetNameViewController.xib; sourceTree = "<group>"; };
+		F3646F51222FB44400A1B673 /* PersonPushSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonPushSetViewController.h; sourceTree = "<group>"; };
+		F3646F52222FB44400A1B673 /* PersonPushSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonPushSetViewController.m; sourceTree = "<group>"; };
+		F3646F53222FB44400A1B673 /* PersonPushSetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonPushSetViewController.xib; sourceTree = "<group>"; };
+		F3646F56222FB84000A1B673 /* QuestionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		F3646F57222FB84000A1B673 /* QuestionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		F3646F58222FB84000A1B673 /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		F3646F5C222FBE4700A1B673 /* loginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		F3646F5D222FBE4700A1B673 /* loginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		F3646F5E222FBE4700A1B673 /* loginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loginViewController.xib; sourceTree = "<group>"; };
 		F669EBDDF82C3F911D7E2FF6 /* libPods-tiyu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tiyu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -168,6 +193,7 @@
 				F3646F23222E8AE700A1B673 /* Weather */,
 				F3646F29222E8B8200A1B673 /* Movement */,
 				F3646F2F222E8C2300A1B673 /* Person */,
+				F3646F44222F994500A1B673 /* CustomLib */,
 				F3646EE5222E87ED00A1B673 /* Main.storyboard */,
 				F3646EE8222E87EE00A1B673 /* Assets.xcassets */,
 				F3646EEA222E87EE00A1B673 /* LaunchScreen.storyboard */,
@@ -247,6 +273,8 @@
 		F3646F2F222E8C2300A1B673 /* Person */ = {
 			isa = PBXGroup;
 			children = (
+				F3646F61222FC7EF00A1B673 /* RealName */,
+				F3646F5B222FBE3100A1B673 /* login */,
 				F3646F30222E8C4500A1B673 /* PersonViewController.h */,
 				F3646F31222E8C4500A1B673 /* PersonViewController.m */,
 				F3646F32222E8C4500A1B673 /* PersonViewController.xib */,
@@ -256,8 +284,44 @@
 				F3646F3F222ED92D00A1B673 /* PersonMyMsgViewController.h */,
 				F3646F40222ED92D00A1B673 /* PersonMyMsgViewController.m */,
 				F3646F41222ED92D00A1B673 /* PersonMyMsgViewController.xib */,
+				F3646F4C222FA20900A1B673 /* PersonSetNameViewController.h */,
+				F3646F4D222FA20900A1B673 /* PersonSetNameViewController.m */,
+				F3646F4E222FA20900A1B673 /* PersonSetNameViewController.xib */,
+				F3646F51222FB44400A1B673 /* PersonPushSetViewController.h */,
+				F3646F52222FB44400A1B673 /* PersonPushSetViewController.m */,
+				F3646F53222FB44400A1B673 /* PersonPushSetViewController.xib */,
+				F3646F56222FB84000A1B673 /* QuestionViewController.h */,
+				F3646F57222FB84000A1B673 /* QuestionViewController.m */,
+				F3646F58222FB84000A1B673 /* QuestionViewController.xib */,
 			);
 			path = Person;
+			sourceTree = "<group>";
+		};
+		F3646F44222F994500A1B673 /* CustomLib */ = {
+			isa = PBXGroup;
+			children = (
+				F3646F45222F999D00A1B673 /* MyWindow.h */,
+				F3646F46222F999D00A1B673 /* MyWindow.m */,
+				F3646F4A222F9A1500A1B673 /* MyWindow.xib */,
+			);
+			path = CustomLib;
+			sourceTree = "<group>";
+		};
+		F3646F5B222FBE3100A1B673 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				F3646F5C222FBE4700A1B673 /* loginViewController.h */,
+				F3646F5D222FBE4700A1B673 /* loginViewController.m */,
+				F3646F5E222FBE4700A1B673 /* loginViewController.xib */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		F3646F61222FC7EF00A1B673 /* RealName */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RealName;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,16 +428,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3646F4B222F9A1500A1B673 /* MyWindow.xib in Resources */,
 				F3646F39222EB68200A1B673 /* PersonSetViewController.xib in Resources */,
 				F3646EEC222E87EE00A1B673 /* LaunchScreen.storyboard in Resources */,
 				F3646F2E222E8C1C00A1B673 /* MovementViewController.xib in Resources */,
+				F3646F5A222FB84000A1B673 /* QuestionViewController.xib in Resources */,
 				F3646F28222E8B3000A1B673 /* WeatherViewController.xib in Resources */,
 				F3646EE9222E87EE00A1B673 /* Assets.xcassets in Resources */,
 				F3646EE7222E87ED00A1B673 /* Main.storyboard in Resources */,
 				F3646F22222E8AD900A1B673 /* VideoViewController.xib in Resources */,
+				F3646F55222FB44400A1B673 /* PersonPushSetViewController.xib in Resources */,
 				F3646F43222ED92D00A1B673 /* PersonMyMsgViewController.xib in Resources */,
 				F3646F15222E896600A1B673 /* HomeViewController.xib in Resources */,
+				F3646F60222FBE4700A1B673 /* loginViewController.xib in Resources */,
 				F3646F34222E8C4500A1B673 /* PersonViewController.xib in Resources */,
+				F3646F50222FA20900A1B673 /* PersonSetNameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,13 +492,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3646F47222F999D00A1B673 /* MyWindow.m in Sources */,
+				F3646F5F222FBE4700A1B673 /* loginViewController.m in Sources */,
 				F3646F21222E8AD900A1B673 /* VideoViewController.m in Sources */,
+				F3646F54222FB44400A1B673 /* PersonPushSetViewController.m in Sources */,
 				F3646F38222EB68200A1B673 /* PersonSetViewController.m in Sources */,
+				F3646F4F222FA20900A1B673 /* PersonSetNameViewController.m in Sources */,
 				F3646F2D222E8C1C00A1B673 /* MovementViewController.m in Sources */,
 				F3646F27222E8B3000A1B673 /* WeatherViewController.m in Sources */,
 				F3646EEF222E87EE00A1B673 /* main.m in Sources */,
 				F3646EE1222E87ED00A1B673 /* AppDelegate.m in Sources */,
 				F3646F14222E896600A1B673 /* HomeViewController.m in Sources */,
+				F3646F59222FB84000A1B673 /* QuestionViewController.m in Sources */,
 				F3646F19222E8A5700A1B673 /* MainViewController.m in Sources */,
 				F3646F33222E8C4500A1B673 /* PersonViewController.m in Sources */,
 				F3646F42222ED92D00A1B673 /* PersonMyMsgViewController.m in Sources */,
@@ -538,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -591,7 +665,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -607,7 +681,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSCFG3R4P8;
 				INFOPLIST_FILE = tiyu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -626,7 +700,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSCFG3R4P8;
 				INFOPLIST_FILE = tiyu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

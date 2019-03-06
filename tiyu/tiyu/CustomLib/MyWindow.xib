@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iH-bo-3M0">
+                    <rect key="frame" x="69" y="39" width="46" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="3iH-bo-3M0" secondAttribute="height" multiplier="1:1" id="7AD-tq-BI8"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3M-BP-Cbf">
+                    <rect key="frame" x="76.5" y="100" width="31" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="rlz-3r-Dzd"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="拍照">
+                            <attributes>
+                                <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" metaFont="system" size="15"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6A-3J-lZx">
+                    <rect key="frame" x="260" y="38" width="46" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="j6A-3J-lZx" secondAttribute="height" multiplier="1:1" id="UYX-Mr-yXD"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ix4-lU-t74">
+                    <rect key="frame" x="267.5" y="99.5" width="31" height="15"/>
+                    <attributedString key="attributedText">
+                        <fragment content="相册">
+                            <attributes>
+                                <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="x3M-BP-Cbf" firstAttribute="centerX" secondItem="3iH-bo-3M0" secondAttribute="centerX" id="0tV-Qh-drV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3iH-bo-3M0" secondAttribute="bottom" constant="58" id="1zv-c2-FWf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="j6A-3J-lZx" secondAttribute="bottom" constant="59" id="CQ2-8e-e8A"/>
+                <constraint firstItem="x3M-BP-Cbf" firstAttribute="top" secondItem="3iH-bo-3M0" secondAttribute="bottom" constant="15" id="QdT-SL-sGA"/>
+                <constraint firstItem="Ix4-lU-t74" firstAttribute="centerX" secondItem="j6A-3J-lZx" secondAttribute="centerX" id="eVg-cd-axh"/>
+                <constraint firstItem="3iH-bo-3M0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="69" id="hOt-WA-95r"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="j6A-3J-lZx" secondAttribute="trailing" constant="69" id="jlE-ia-laM"/>
+                <constraint firstItem="Ix4-lU-t74" firstAttribute="centerY" secondItem="x3M-BP-Cbf" secondAttribute="centerY" id="otD-kr-mts"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>

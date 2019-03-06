@@ -14,6 +14,7 @@
 #import "MovementViewController.h"
 #import "PersonViewController.h"
 #import <CYLTabBarController.h>
+#import <YYKit.h>
 
 @interface AppDelegate ()
 
@@ -38,6 +39,22 @@
     [self customizeInterface];
     [self.window makeKeyAndVisible];
     
+    
+    NSDictionary *attributeDict = @{
+                                    NSFontAttributeName:[UIFont boldSystemFontOfSize:18],
+                                    NSForegroundColorAttributeName : [UIColor whiteColor]
+                                    };
+    [[UINavigationBar appearance] setTitleTextAttributes:attributeDict];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithRed:215/256.0 green:30/256.0  blue:6/256.0  alpha:1]] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [UINavigationBar appearance].barStyle = UIStatusBarStyleLightContent;
+    // 取消所有返回按钮标题'back' --这个在ios11下有兼容性的问题
+    //    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(-20, -60)
+    //                                                         forBarMetrics:UIBarMetricsDefault];
+    
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor clearColor]} forState:UIControlStateNormal];
+    
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor clearColor]} forState:UIControlStateHighlighted];
     
     return YES;
 }

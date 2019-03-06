@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonMyMsgViewController">
             <connections>
+                <outlet property="SetNameTap" destination="CXl-4m-5xN" id="5kR-fs-4e7"/>
+                <outlet property="headerImageViewTap" destination="KwG-hd-CWn" id="P1a-41-onu"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

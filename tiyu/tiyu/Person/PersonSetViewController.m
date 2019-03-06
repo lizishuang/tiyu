@@ -7,10 +7,14 @@
 //
 
 #import "PersonSetViewController.h"
+#import "PersonPushSetViewController.h"
+#import "QuestionViewController.h"
 
 @interface PersonSetViewController ()
 
 @property (weak, nonatomic) IBOutlet UITableView *myTableView;
+@property (weak, nonatomic) IBOutlet UIView *setPushView;
+@property (weak, nonatomic) IBOutlet UIView *quesTionView;
 
 @end
 
@@ -24,6 +28,29 @@
     [self setBackbutton];
     [self hiddenNavLine];
     
+    [self setTap];
+}
+
+- (void)setTap
+{
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(pushSet)];
+    [self.setPushView addGestureRecognizer:tap];
+    
+    UITapGestureRecognizer * tap2 = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(question)];
+    [self.quesTionView addGestureRecognizer:tap2];
+    
+}
+
+- (void)pushSet
+{
+    PersonPushSetViewController * view = [[PersonPushSetViewController alloc]init];
+    [self.navigationController pushViewController:view animated:NO];
+}
+
+- (void)question
+{
+    QuestionViewController * view = [[QuestionViewController alloc]init];
+    [self.navigationController pushViewController:view animated:NO];
 }
 
 //设置导航栏

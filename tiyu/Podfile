@@ -8,5 +8,7 @@ target 'tiyu' do
   # Pods for tiyu
   
   pod 'CYLTabBarController'
-  
+  pod 'YYKit'
+  pod 'AFNetworking'
+  pod 'MBProgressHUD'
 end
